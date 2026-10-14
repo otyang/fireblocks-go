@@ -1,0 +1,17 @@
+version: "2"
+run:
+  timeout: 5m
+linters:
+  enable:
+    - errorlint
+    - gocritic
+    - misspell
+    - revive
+    - unconvert
+  exclusions:
+    generated: lax
+    paths:
+      - ".*\\.gen\\.go$"
+formatters:
+  enable:
+    - gofmt

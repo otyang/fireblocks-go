@@ -1,0 +1,23 @@
+# Binaries and build output
+/bin/
+/dist/
+*.exe
+*.test
+*.out
+coverage.*
+
+# Generator debugging output
+*.broken
+
+# Secrets: never commit Fireblocks keys
+*.key
+*.pem
+!testdata/**/*.pem
+.env
+.env.*
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store

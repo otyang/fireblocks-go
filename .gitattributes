@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+# Collapse generated code and the vendored spec in GitHub diffs and language stats.
+*.gen.go          linguist-generated=true
+docs/api/*.md     linguist-generated=true
+api/openapi.yaml  linguist-vendored=true -diff
