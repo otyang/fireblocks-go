@@ -6,7 +6,7 @@
 
 An idiomatic, fully typed Go client for the [Fireblocks API](https://developers.fireblocks.com/reference).
 
-> **Unofficial.** This project is not affiliated with or endorsed by Fireblocks.
+> **Unofficial.** This project is not affiliated with or endorsed by Fireblocks. - Just put together by me. Note I used a generator pattern so when fireblocks update their api i can just take the new openapi.yaml file and version and rerun make to update all contents of this sdk this is the way to go thank you. Enjoy!
 
 - **Complete:** 488 operations across 57 services, generated from the official OpenAPI specification (v1.6.2).
 - **Typed:** request and response structs, string enums with constants, and union types for `oneOf`/`anyOf`.
